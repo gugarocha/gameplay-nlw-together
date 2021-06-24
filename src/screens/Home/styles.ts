@@ -13,4 +13,11 @@ export const styles = StyleSheet.create({
     marginBottom: 42,
     paddingHorizontal: 24,
   },
+  content: {
+    marginTop: 42,
+  },
+  matches: {
+    marginTop: 24,
+    marginLeft: 24,
+  },
 });
