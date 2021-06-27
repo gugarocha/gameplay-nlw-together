@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     width: '100%',
     height: 95,
     marginRight: 4,
+    padding: 16,
     borderRadius: 8,
     borderWidth: 1,
     borderColor: theme.colors.secondary50,
@@ -14,6 +15,6 @@ export const styles = StyleSheet.create({
     color: theme.colors.heading,
     fontFamily: theme.fonts.text400,
     fontSize: 13,
-    textAlign: 'center',
+    textAlignVertical: 'top'
   },
 });
