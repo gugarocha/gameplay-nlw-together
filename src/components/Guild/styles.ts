@@ -14,13 +14,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   title: {
-    marginBottom: 11,
+    marginBottom: 4,
     color: theme.colors.heading,
     fontFamily: theme.fonts.title700,
     fontSize: 18,
   },
   type: {
-    marginBottom: 24,
+    marginBottom: 12,
     color: theme.colors.highlight,
     fontFamily: theme.fonts.text400,
     fontSize: 13,
