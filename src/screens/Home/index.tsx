@@ -108,6 +108,7 @@ export function Home() {
         style={styles.matches}
         showsVerticalScrollIndicator={false}
         ItemSeparatorComponent={() => <ListDivider />}
+        contentContainerStyle={{ paddingBottom: 69 }}
       />
     </Background>
   );
