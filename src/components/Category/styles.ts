@@ -20,6 +20,7 @@ export const styles = StyleSheet.create({
     borderRadius: 8,
   },
   title: {
+    marginTop: 15,
     color: theme.colors.heading,
     fontFamily: theme.fonts.title700,
     fontSize: 15,
