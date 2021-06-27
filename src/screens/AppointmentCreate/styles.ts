@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   label: {
+    marginBottom: 12,
     color: theme.colors.heading,
     fontFamily: theme.fonts.title700,
     fontSize: 18,
