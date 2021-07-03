@@ -31,8 +31,8 @@ export function Home() {
     categoryId === category ? setCategory('') : setCategory(categoryId);
   };
 
-  function handleAppointmentDetails() {
-    navigation.navigate('AppointmentDetails');
+  function handleAppointmentDetails(guildSelected: AppointmentsProps) {
+    navigation.navigate('AppointmentDetails', { guildSelected });
   };
 
   async function loadAppointments() {
@@ -77,7 +77,7 @@ export function Home() {
               renderItem={({ item }) =>
                 <Appointments
                   data={item}
-                  onPress={handleAppointmentDetails}
+                  onPress={() => { handleAppointmentDetails(item) }}
                 />
               }
               style={styles.matches}
